@@ -18,7 +18,17 @@ function writePassword() {
 
 // create function called generatePassword()
 function generatePassword() {
+  let input = prompt("How long would you like your password to be? Choose between 8 to 128 characters.")
   
+  if (input >= 8 && input <= 128) {
+    upperCase = confirm("Would like upperCase letters?");
+    lowerCase = confirm("Would like lowerCase letters?");
+    numbers = confirm("Would like numbers?");
+    specChars = confirm("Would like special characters?");
+  }
+  else {
+    alert("Invalid Input!")
+  } 
 }
 
 // Add event listener to generate button
