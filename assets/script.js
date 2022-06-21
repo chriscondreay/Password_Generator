@@ -19,7 +19,8 @@ function writePassword() {
 // create function called generatePassword()
 function generatePassword() {
   let input = prompt("How long would you like your password to be? Choose between 8 to 128 characters.")
-  
+
+  // If the input is in range of characters, go ahead and confirm choices
   if (input >= 8 && input <= 128) {
     upperCase = confirm("Would like upperCase letters?");
     lowerCase = confirm("Would like lowerCase letters?");
@@ -28,7 +29,18 @@ function generatePassword() {
   }
   else {
     alert("Invalid Input!")
-  } 
+  }
+  
+  // If choices are selected, concat choices selected
+  if (upperCase) {
+      choices = choices.concat(choiceObj.upperCase);
+    } else if (lowerCase) {
+      choices = choices.concat(choiceObj.lowerCase)
+    } else if (numbers) {
+      choices = choices.concat(choiceObj.numbers)
+    } else if (specChars) {
+      choices = choices.concat(choiceObj.specChars)
+    }
 }
 
 // Add event listener to generate button
