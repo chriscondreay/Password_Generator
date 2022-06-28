@@ -13,5 +13,7 @@ This allows a lot of users as said to generate a complicated password that is ra
 
 ## Demo
 
+![818371E1-621C-4E56-AA6F-A133C0F33CE9_1_102_o](https://user-images.githubusercontent.com/76202959/176176112-6bc31c58-b28e-4dec-a19b-96d326403e71.jpeg)
 
 ## Deployment
+https://chriscondreay.github.io/Password_Generator/
