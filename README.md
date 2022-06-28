@@ -10,3 +10,9 @@ The motivation for this project was to make it so it was a lot easier for people
 
 ## Solving a Problem 
 This allows a lot of users as said to generate a complicated password that is randomly generated so that way anyone who may want to access sensitive content or account won't be able to as the password would be extremely complicated to retrieve.
+
+## Demo
+
+
+## Deployment
+https://chriscondreay.github.io/Password_Generator/
