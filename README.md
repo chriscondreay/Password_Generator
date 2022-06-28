@@ -15,4 +15,3 @@ This allows a lot of users as said to generate a complicated password that is ra
 
 
 ## Deployment
-https://chriscondreay.github.io/Password_Generator/
