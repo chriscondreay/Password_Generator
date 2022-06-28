@@ -41,6 +41,12 @@ function generatePassword() {
     } else if (specChars) {
       choices = choices.concat(choiceObj.specChars)
     }
+
+    let password = "";
+    for (let i = 0; i < array.length; i++) {
+      password +=  choices[Math.floor(Math.random() * choices.length)];
+    }
+    return password;
 }
 
 // Add event listener to generate button
