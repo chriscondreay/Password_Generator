@@ -12,8 +12,7 @@ The motivation for this project was to make it so it was a lot easier for people
 This allows a lot of users as said to generate a complicated password that is randomly generated so that way anyone who may want to access sensitive content or account won't be able to as the password would be extremely complicated to retrieve.
 
 ## Demo
-
-![818371E1-621C-4E56-AA6F-A133C0F33CE9_1_102_o](https://user-images.githubusercontent.com/76202959/176176112-6bc31c58-b28e-4dec-a19b-96d326403e71.mov)
+![demo](https://user-images.githubusercontent.com/76202959/176179362-e7060413-aa9d-423a-b5fa-6c348a5efa43.gif)
 
 ## Deployment
 https://chriscondreay.github.io/Password_Generator/
